@@ -75,23 +75,23 @@ nav a:hover {
 
 /* Hero CSS */
 .hero-banner {
-  width: 100%;
   height: 200px;
-  background-image: url("images/02-hero-bg.jpg");
+  background-image: url("/images/02-hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #heroGrid {
   margin: 0px 5%;
   display: grid;
   min-height: 500px;
   height: 70vh;
-  grid-template-rows: 75% 25%;
-  grid-template-columns: 75% 25%;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
   grid-template-areas:
   "hero";
 }
 #hero {
   grid-area: hero;
-  background-image: url("images/02-hero-bg.jpg");
 }
 #headline {
   background-color: rgba(255,255,255,0.8);
