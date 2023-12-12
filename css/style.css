@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Main CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
+}
+
+/* Navigation CSS */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #b8c7d4;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #fff;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+/* Grid CSS */
+#about {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+  height: 200px;
+}
+
+#work {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+  height: 400px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+  height: 200px;
+}
